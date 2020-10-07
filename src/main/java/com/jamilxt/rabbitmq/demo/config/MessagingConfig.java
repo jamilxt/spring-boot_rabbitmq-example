@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MessagingConfig {
 
-    private static final String QUEUE = "jamilxt_queue";
+    public static final String QUEUE = "jamilxt_queue";
     public static final String EXCHANGE = "jamilxt_exchange";
     public static final String ROUTING_KEY = "jamilxt_routingKey";
 
